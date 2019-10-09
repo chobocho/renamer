@@ -1,0 +1,2 @@
+python renamer.py
+pause
