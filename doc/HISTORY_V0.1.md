@@ -3,4 +3,4 @@
 ## Feature
 - [x] Drag & drop 
 - [ ] Change folder name
-- [ ] Change file name
+- [x] Change file name
