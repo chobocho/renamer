@@ -29,7 +29,7 @@ class SimpleGuiPanel(wx.Panel):
         clearBtn.Bind(wx.EVT_BUTTON, self.OnClearBtn)
         self.btnBox.Add(clearBtn, 1, wx.ALIGN_CENTRE|wx.ALL, 5)
 
-        sizer.Add(self.btnBox, 0, wx.ALIGN_CENTER_VERTICAL, 5)
+        sizer.Add(self.btnBox, 0, wx.ALIGN_CENTRE, 5)
         self.SetSizer(sizer)
 
     def OnCallback(self, filelist):
